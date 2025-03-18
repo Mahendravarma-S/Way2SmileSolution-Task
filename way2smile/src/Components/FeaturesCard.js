@@ -20,13 +20,13 @@ const FeatureCard = () => {
           justifyContent: "center",
           backgroundColor: "#F9B800",
           borderRadius: "30px",
-          padding: { xs: "20px", md: "50px" }, // Reduced padding for small screens
+          padding: { xs: "20px", md: "50px" }, 
           width: "100%",
           maxWidth: "1400px",
-          height: { xs: "auto", md: "600px" }, // Auto height for small screens
+          height: { xs: "auto", md: "600px" }, 
           marginBottom: "40px",
           boxShadow: "none",
-          flexDirection: { xs: "column-reverse", md: "row" }, // Image on top for mobile
+          flexDirection: { xs: "column-reverse", md: "row" }, 
         }}
       >
         {/* Left Side - Text Content */}
@@ -35,7 +35,7 @@ const FeatureCard = () => {
             flex: 1,
             maxWidth: "750px",
             textAlign: { xs: "center", md: "left" },
-            padding: { xs: "15px", md: "0 50px" }, // Adaptive padding
+            padding: { xs: "15px", md: "0 50px" }, 
           }}
         >
           <Typography
@@ -48,10 +48,10 @@ const FeatureCard = () => {
               lineHeight: "1.4",
               wordBreak: "break-word",
               display: "-webkit-box",
-              WebkitLineClamp: 3, // Force exactly 3 lines
+              WebkitLineClamp: 3, 
               WebkitBoxOrient: "vertical",
               overflow: "hidden",
-              fontSize: { xs: "24px", sm: "28px", md: "32px" }, // Adjust font size
+              fontSize: { xs: "24px", sm: "28px", md: "32px" }, 
             }}
           >
             Phasellus a vitae iaculis magna eleifend pulvinar velit odio.
@@ -92,7 +92,7 @@ const FeatureCard = () => {
             sx={{
               backgroundColor: "#000",
               color: "#fff",
-              padding: { xs: "12px 30px", sm: "15px 40px" }, // Smaller button for mobile
+              padding: { xs: "12px 30px", sm: "15px 40px" }, 
               borderRadius: "30px",
               textTransform: "none",
               fontWeight: "600",
@@ -105,13 +105,13 @@ const FeatureCard = () => {
           </Button>
         </CardContent>
 
-        {/* Right Side - Illustration */}
+    
         <Box
           component="img"
           src={image}
           alt="Illustration"
           sx={{
-            maxWidth: { xs: "80%", sm: "350px", md: "550px" }, // Smaller image for mobile
+            maxWidth: { xs: "80%", sm: "350px", md: "550px" }, 
             height: "auto",
             marginTop: { xs: "20px", md: "0" },
           }}

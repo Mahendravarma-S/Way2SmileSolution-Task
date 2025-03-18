@@ -37,8 +37,8 @@ const HeroSection = () => {
         backgroundColor: "#FCF8ED",
         padding: { xs: "40px", md: "80px" },
         textAlign: "center",
-        marginTop: { xs: "50px", md: "100px" },  // Increased top margin
-        marginBottom: { xs: "50px", md: "100px" },  // Increased bottom margin
+        marginTop: { xs: "50px", md: "100px" },  
+        marginBottom: { xs: "50px", md: "100px" }, 
       }}
     >
       {/* Heading */}
@@ -68,7 +68,6 @@ const HeroSection = () => {
         <span style={{ color: "#262626" }} ref={typedRef}></span>
       </Typography>
 
-      {/* First Row (4 Chips) */}
       <Grid container spacing={1.5} justifyContent="center" sx={{ maxWidth: "750px", mx: "auto" }}>
         {chipData.slice(0, 4).map((text, index) => (
           <Grid item key={index}>

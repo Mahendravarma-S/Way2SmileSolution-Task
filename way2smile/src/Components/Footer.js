@@ -16,7 +16,6 @@ const Footer = () => {
       }}
     >
       <Container>
-        {/* Main Footer Content */}
         <Stack
           direction={{ xs: "column", md: "row" }}
           alignItems="center"
@@ -24,7 +23,6 @@ const Footer = () => {
           spacing={3}
           textAlign={{ xs: "center", md: "left" }}
         >
-          {/* Left Side - Text */}
           <Box>
             <Typography
               variant="h5"
@@ -42,7 +40,6 @@ const Footer = () => {
             </Typography>
           </Box>
 
-          {/* Right Side - Button (Centered on Mobile) */}
           <Box sx={{ textAlign: { xs: "center", md: "right" } }}>
             <Button
               variant="contained"
@@ -62,7 +59,6 @@ const Footer = () => {
           </Box>
         </Stack>
 
-        {/* Bottom Row - Copyright & Links */}
         <Box
           sx={{
             borderTop: "1px solid rgba(255, 255, 255, 0.2)",
